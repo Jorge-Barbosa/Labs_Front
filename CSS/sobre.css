@@ -1,6 +1,9 @@
 body {
     color: #333333;
     font-family: "lucida Sans Unicode", "Lucida Grande", sans-serif ;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
 }
 h1{
     background-image: url(../IMG/sobre.jfif);
