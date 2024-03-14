@@ -3,10 +3,10 @@
 /*cor-borda-img (figure)*/
 
 :root{
-    --cor-base: #00155c;
+    --cor-base: #000000;
     --cor-baseh2: #00155c;
-    --cor-fundo-img: #80b6fd;
-    --cor-borda-img: #1d2b2e;
+    --cor-fundo-img: #dfdfdf;
+    --cor-borda-img: #4edfff;
      
 }
 
@@ -26,11 +26,11 @@ h1{
 }
 h2{
     color:var(--cor-baseh2);
-    border-bottom: 2px groove #661919;
+    border-bottom: 2px groove #850000;
     margin-top: 30px;
 }
 figure{
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     padding: 15px;
     margin: 30px;
     background-color: var(--cor-fundo-img);
