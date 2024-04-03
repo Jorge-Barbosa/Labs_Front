@@ -10,11 +10,17 @@
     padding-right: 35px;
     text-align: right;
     width: 140px;
+    padding-top: 8px;
 }
 
 .menu-opcoes ul{
     color: var(--cor-menu);
     font-size: 15px;
+}
+
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
 }
 
 .menu-opcoes a{
@@ -25,4 +31,9 @@ body{
     color: var(--cor-base);
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-family: "Merriweather", serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;
 }
