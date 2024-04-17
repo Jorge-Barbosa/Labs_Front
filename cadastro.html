@@ -9,9 +9,12 @@
 </head>
 
 <body>
+    <h1>Faça seu cadastro!</h1>
+    <img src="IMG/foto.png.">
     <form action="" method="post">
         <fieldset>
             <legend>Dados Pessoais</legend>
+            <div class="grid-container">
             <label for="">Nome</label>
             <input type="text" name="nome" required>
             <label for="email">Email</label>
@@ -23,9 +26,11 @@
             <label for="cpf">CPF</label>
             <input type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Digite seu CPF no formato correto"
                 required>
+            </div>
         </fieldset>
         <fieldset>
         <legend>Endereço</legend>
+        <div class="grid-container">
         <label for="rua">Rua</label>
         <input type="text" name="rua">
         <label for="numero">Número</label>
@@ -67,10 +72,12 @@
             <option value="sp">São Paulo</option>
             <option value="to">Tocantins</option>
         </select>
+    </div>
     </fieldset>
 
         <fieldset>
             <legend>Login</legend>
+            <div class="grid-container">
             <label for="imagem">Imagem de perfil</label>
             <input type="file" name="imagem" accept="iamge/*" title="Apenas PNG, JPG, BMP, WEBP">
             <label for="login">Login</label>
@@ -79,10 +86,14 @@
             <input type="password" name="senha" minlength="8" required>
             <label for="senhaConfirma">Confirmação de Senha</label>
             <input type="password" name="senhaConfirma" minlength="8" required>
+        </div>
         </fieldset>
+        <div class="grid-button-container"> 
         <input type="reset" value="Cancelar" name="botaoCancelar">
         <input type="submit" value="Enviar" name="botaoEnviar">
-    </form>
+        </div>
+        </form>
+    
 </body>
 
 </html>
