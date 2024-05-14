@@ -7,7 +7,7 @@
     --cor-panel-mais-vendidos: #dcdcf5;
 }
 .sacola {
-   background: url(../img/sacola.png) no-repeat top right;
+   background: url(IMG/sacola.png) no-repeat top right;
    font-size: 14px;
    padding-right: 35px;
    text-align: right;
@@ -140,7 +140,7 @@ header {
 }
 
 footer {
-    background-image: url(../img/fundo-rodape.png);
+    background-image: url(IMG/fundo-rodape.png);
     clear: both;
     padding: 20px 0;
     position: relative;
@@ -154,15 +154,15 @@ footer {
 }
 
 .social a[href*="facebook.com"] {
-    background-image: url(../img/facebook.png);
+    background-image: url(IMG/facebook.png);
 }
 
 .social a[href*="twitter.com"] {
-    background-image: url(../img/twitter.png);
+    background-image: url(IMG/twitter.png);
 }
 
 .social a[href*="google.com"] {
-    background-image: url(../img/googleplus.png);
+    background-image: url(IMG/googleplus.png);
 }
 
 .social li {
