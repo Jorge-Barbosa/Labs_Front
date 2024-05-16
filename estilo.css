@@ -3,11 +3,13 @@
     --cor-menu: #036;
     --cor-menu-lateral: #dcdcdc;
     --cor-menu-lateral-itens: #fff;
+    --cor-menu-lateral-itens-hover: #007dc6;
+    --cor-menu-lateral-itens-active: #f00;
     --cor-painel-novidades: #f5dcdc;
     --cor-panel-mais-vendidos: #dcdcf5;
 }
 .sacola {
-   background: url(IMG/sacola.png) no-repeat top right;
+   background: url(../img/sacola.png) no-repeat top right;
    font-size: 14px;
    padding-right: 35px;
    text-align: right;
@@ -140,7 +142,7 @@ header {
 }
 
 footer {
-    background-image: url(IMG/fundo-rodape.png);
+    background-image: url(../img/fundo-rodape.png);
     clear: both;
     padding: 20px 0;
     position: relative;
@@ -154,15 +156,15 @@ footer {
 }
 
 .social a[href*="facebook.com"] {
-    background-image: url(IMG/facebook.png);
+    background-image: url(../img/facebook.png);
 }
 
 .social a[href*="twitter.com"] {
-    background-image: url(IMG/twitter.png);
+    background-image: url(../img/twitter.png);
 }
 
 .social a[href*="google.com"] {
-    background-image: url(IMG/googleplus.png);
+    background-image: url(../img/googleplus.png);
 }
 
 .social li {
@@ -174,4 +176,28 @@ footer {
     position: absolute;
     top: 12px;
     right: 0;
+}
+ 
+.menu-opcoes a:hover {
+    color: var(--cor-menu-lateral-itens-hover);     
+}
+
+.menu-opcoes a:active {
+    color: var(--cor-menu-lateral-itens-active);
+}
+
+.menu-departamentos li ul {
+    display: none;
+}
+
+.menu-departamentos li:hover ul {
+    display: block;
+}
+
+.menu-departamentos ul ul li {
+    background-color: var(--cor-menu-lateral);
+}
+
+.menu-departamentos li li a::before {
+    content: '- ';
 }
